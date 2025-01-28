@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Road Trip Planner</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Road Trip Planner</h1>
+    </header>
+    <main>
+        <form id="tripForm">
+            <label for="start">Starting Point:</label>
+            <input type="text" id="start" name="start" required>
+            <label for="end">Destination:</label>
+            <input type="text" id="end" name="end" required>
+            <button type="submit">Plan My Trip</button>
+        </form>
+        <div id="map"></div>
+        <div id="itinerary"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
